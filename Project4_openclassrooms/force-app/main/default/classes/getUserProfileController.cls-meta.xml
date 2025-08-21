@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApexClass xmlns="http://soap.sforce.com/2006/04/metadata">
+    <!-- Version de l’API utilisée -->
+    <apiVersion>64.0</apiVersion>
+
+    <!-- Statut de la classe (Active ou Deprecated) -->
+    <status>Active</status>
+</ApexClass>

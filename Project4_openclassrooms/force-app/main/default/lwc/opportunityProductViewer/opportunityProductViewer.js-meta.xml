@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <!-- Version de l’API Salesforce -->
+    <apiVersion>63.0</apiVersion>
+
+    <!-- Rend le composant disponible dans l’App Builder -->
+    <isExposed>true</isExposed>
+
+    <!-- Pages où le composant peut être utilisé -->
+    <targets>
+        <target>lightning__RecordPage</target>
+    </targets>
+
+    <!-- Configuration spécifique aux pages -->
+    <targetConfigs>
+        <targetConfig targets="lightning__RecordPage">
+            <!-- Restreint l’utilisation du composant aux enregistrements Opportunity -->
+            <objects>
+                <object>Opportunity</object>
+            </objects>
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>
